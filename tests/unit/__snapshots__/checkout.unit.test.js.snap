@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart test Checkout should throw 400 error if address is not set - when User.hasSetNonDefaultAddress() returns false: err => {
+        return err.httpStatus === 400;
+      } 1`] = `"User has not set the address"`;
+
+exports[`Cart test Checkout should throw 400 error if user's cart doesn't have any product: err => {
+        return err.httpStatus === 400;
+      } 1`] = `"Cart is empty"`;
+
+exports[`Cart test Checkout should throw 400 error if wallet balance is insufficient: err => {
+        return err.httpStatus === 400;
+      } 1`] = `"User has not set the address"`;
+
+exports[`Cart test Checkout should throw 404 error if cart is not present: err => {
+        return err.httpStatus === 404;
+      } 1`] = `"User does not have a cart"`;
